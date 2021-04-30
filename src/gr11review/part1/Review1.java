@@ -7,8 +7,35 @@ import java.io.*;
 */
 public class Review1{
     public static void main(String[] args) throws IOException{
-      int numMonth;
-      int numDay;
+      BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
+      int numMonth = 1;
+      int numDay = 2;
+      int numTotalDay;
+      
+      System.out.println("Enter the month:");
+      numMonth = Integer.parseInt(keyboard.readLine());
+
+      System.out.println("Enter the day:");
+      numDay = Integer.parseInt(keyboard.readLine());
+      
+      if(numMonth == 1 && numDay >= 1 && numDay <= 31){
+        numTotalDay = numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 2 && numDay >= 1 && numDay <= 28){
+        numTotalDay = 31 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 3 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 59 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 4 && numDay >= 1 && numDay <= 30){
+        numTotalDay = 90 + numDay;
+        System.out.println(numTotalDay);
+      }
+      
 
 
 
