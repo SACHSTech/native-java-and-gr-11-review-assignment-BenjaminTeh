@@ -19,7 +19,11 @@ public class Review3{
 
     System.out.println("");
     displayNum = 29;
-    
 
+    for(counterDown = 29; counterDown >= 2; counterDown--){
+      System.out.println(displayNum);
+      displayNum = displayNum - 1;
+    }
+    
   }
 }
