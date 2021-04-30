@@ -10,12 +10,16 @@ public class Review3{
   public static void main(String[] args) throws IOException{
     int counterOdd;
     int counterDown;
-    int displayNum = 21
+    int displayNum = 21;
 
-    for(counterOdd = 0; counterOdd < 39; counterOdd++){
-      System.out.println(displayNum + 2);
+    for(counterOdd = 0; counterOdd < 40; counterOdd++){
+      System.out.println(displayNum);
       displayNum = displayNum + 2;
     }
+
+    System.out.println("");
+    displayNum = 29;
+    
 
   }
 }
