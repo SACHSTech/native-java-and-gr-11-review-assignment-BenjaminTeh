@@ -11,7 +11,7 @@ public class Review1{
 
       int numMonth = 1;
       int numDay = 2;
-      int numTotalDay;
+      int numTotalDay = 0;
       
       System.out.println("Enter the month:");
       numMonth = Integer.parseInt(keyboard.readLine());
@@ -35,10 +35,41 @@ public class Review1{
         numTotalDay = 90 + numDay;
         System.out.println(numTotalDay);
       }
-      
-
-
-
+      else if(numMonth == 5 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 120 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 6 && numDay >= 1 && numDay <= 30){
+        numTotalDay = 151 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 7 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 181 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 8 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 212 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 9 && numDay >= 1 && numDay <= 30){
+        numTotalDay = 243 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 10 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 273 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 11 && numDay >= 1 && numDay <= 30){
+        numTotalDay = 304 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else if(numMonth == 12 && numDay >= 1 && numDay <= 31){
+        numTotalDay = 334 + numDay;
+        System.out.println(numTotalDay);
+      }
+      else{
+        System.out.println("This month does not exist or there aren't this many days in a year.");
+        }
 
     }
 }
