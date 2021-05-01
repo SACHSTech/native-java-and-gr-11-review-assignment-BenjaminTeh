@@ -13,7 +13,9 @@ public class Review4{
     NumberFormat numberFormat = new DecimalFormat("#,###.00");
     int itemCount;
     double itemPrice;
-    double subTotal;
+    double subTotal = 0;
+    double salesTax;
+    double finalTotal;
     int priceCounter;
 
     System.out.println("How many items do you want to buy?");
@@ -21,9 +23,21 @@ public class Review4{
 
     for(priceCounter = 1; priceCounter <= itemCount; priceCounter++){
       System.out.println("Enter the price for item " + priceCounter + ":");
+     
       itemPrice = Double.parseDouble(keyboard.readLine());
-      System.out.println(numberFormat.format(itemPrice));
+      
+      subTotal = subTotal + itemPrice;
     }
+
+    System.out.println("Subtotal: " + numberFormat.format(subTotal));
+
+    salesTax = subTotal * 0.13;
+
+    System.out.println("Tax: " + numberFormat.format(salesTax));
+
+    finalTotal = subTotal + salesTax;
+
+    System.out.println("Total: " + numberFormat.format(finalTotal));
 
   }
 }
