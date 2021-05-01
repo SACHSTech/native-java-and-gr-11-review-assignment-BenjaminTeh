@@ -14,7 +14,7 @@ public class Review5{
     double yearInvest;
     double compoundRate;
     double targetAmount;
-    double currentAmount;
+    double currentAmount = 0;
     int yearCount;
 
     System.out.println("Enter the yearly invested amount: ");
@@ -25,7 +25,9 @@ public class Review5{
     targetAmount = Double.parseDouble(keyboard.readLine());
     
     for(yearCount = 1; currentAmount < targetAmount; yearCount++){
-      
+      currentAmount = currentAmount + yearInvest;
+      currentAmount = currentAmount * (1 + (compoundRate / 100));
+      System.out.println(currentAmount);
     }
 
   }
