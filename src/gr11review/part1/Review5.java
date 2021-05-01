@@ -24,11 +24,12 @@ public class Review5{
     System.out.println("Enter the target amount: ");
     targetAmount = Double.parseDouble(keyboard.readLine());
     
-    for(yearCount = 1; currentAmount < targetAmount; yearCount++){
+    for(yearCount = 0; currentAmount < targetAmount; yearCount++){
       currentAmount = currentAmount + yearInvest;
       currentAmount = currentAmount * (1 + (compoundRate / 100));
-      System.out.println(currentAmount);
     }
+
+    System.out.println("The target amount will be earned in " + yearCount + " years.");
 
   }
 }
