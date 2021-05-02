@@ -24,6 +24,8 @@ public class Review8{
         tripletCounter++;
       }
     }
+
     System.out.println(tripletCounter);
+    
   }
 }

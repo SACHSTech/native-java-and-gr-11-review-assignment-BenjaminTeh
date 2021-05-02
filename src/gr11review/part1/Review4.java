@@ -11,6 +11,7 @@ public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
     NumberFormat numberFormat = new DecimalFormat("#,###.00");
+    
     int itemCount;
     double itemPrice;
     double subTotal = 0;

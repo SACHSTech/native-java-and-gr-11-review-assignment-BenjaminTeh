@@ -11,6 +11,7 @@ import java.io.*;
 public class Review5{
   public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
     double yearInvest;
     double compoundRate;
     double targetAmount;
@@ -19,8 +20,10 @@ public class Review5{
 
     System.out.println("Enter the yearly invested amount: ");
     yearInvest = Double.parseDouble(keyboard.readLine());
+
     System.out.println("Enter the compound interest rate: ");
     compoundRate = Double.parseDouble(keyboard.readLine());
+    
     System.out.println("Enter the target amount: ");
     targetAmount = Double.parseDouble(keyboard.readLine());
     

@@ -9,6 +9,7 @@ import java.io.*;
 public class Review7{
   public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
+
     String theSentence;
     int counter;
     int spaceCounter = 0;
@@ -25,7 +26,9 @@ public class Review7{
         aCounter++;
       }
     }
+
     counter = 0;
+    
     System.out.println("There are " + theSentence.length() + " characters in the sentence.");
     System.out.println("There are " + spaceCounter + " spaces in the sentence.");
     System.out.println("There are " + aCounter + " letter a in the sentence.");
