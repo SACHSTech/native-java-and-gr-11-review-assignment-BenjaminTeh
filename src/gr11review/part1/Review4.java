@@ -5,13 +5,14 @@ import java.text.*;
 /**
 * Take the amount of items the user wants to buy. Ask for the prices using a loop that runs the exact amount of times as the number of items the user is buying.
 * Display the subtotal, display the 13% tax, and display the total
+@author Benjamin Teh
 */
 
 public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
     NumberFormat numberFormat = new DecimalFormat("#,###.00");
-    
+
     int itemCount;
     double itemPrice;
     double subTotal = 0;
