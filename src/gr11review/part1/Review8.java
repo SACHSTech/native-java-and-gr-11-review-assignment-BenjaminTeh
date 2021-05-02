@@ -15,7 +15,7 @@ public class Review8{
     int simCounter;
     int tripletCounter = 0;
     
-    for(simCounter = 0; simCounter < 1000; simCounter++){
+    for (simCounter = 0; simCounter < 1000; simCounter++){
       randomOne = (int)(Math.random() * 9);
       randomTwo = (int)(Math.random() * 9);
       randomThree = (int)(Math.random() * 9);

@@ -19,51 +19,51 @@ public class Review1{
       System.out.println("Enter the day:");
       numDay = Integer.parseInt(keyboard.readLine());
       
-      if(numMonth == 1 && numDay >= 1 && numDay <= 31){
+      if (numMonth == 1 && numDay >= 1 && numDay <= 31){
         numTotalDay = numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 2 && numDay >= 1 && numDay <= 28){
+      else if (numMonth == 2 && numDay >= 1 && numDay <= 28){
         numTotalDay = 31 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 3 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 3 && numDay >= 1 && numDay <= 31){
         numTotalDay = 59 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 4 && numDay >= 1 && numDay <= 30){
+      else if (numMonth == 4 && numDay >= 1 && numDay <= 30){
         numTotalDay = 90 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 5 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 5 && numDay >= 1 && numDay <= 31){
         numTotalDay = 120 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 6 && numDay >= 1 && numDay <= 30){
+      else if (numMonth == 6 && numDay >= 1 && numDay <= 30){
         numTotalDay = 151 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 7 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 7 && numDay >= 1 && numDay <= 31){
         numTotalDay = 181 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 8 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 8 && numDay >= 1 && numDay <= 31){
         numTotalDay = 212 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 9 && numDay >= 1 && numDay <= 30){
+      else if (numMonth == 9 && numDay >= 1 && numDay <= 30){
         numTotalDay = 243 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 10 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 10 && numDay >= 1 && numDay <= 31){
         numTotalDay = 273 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 11 && numDay >= 1 && numDay <= 30){
+      else if (numMonth == 11 && numDay >= 1 && numDay <= 30){
         numTotalDay = 304 + numDay;
         System.out.println(numTotalDay);
       }
-      else if(numMonth == 12 && numDay >= 1 && numDay <= 31){
+      else if (numMonth == 12 && numDay >= 1 && numDay <= 31){
         numTotalDay = 334 + numDay;
         System.out.println(numTotalDay);
       }

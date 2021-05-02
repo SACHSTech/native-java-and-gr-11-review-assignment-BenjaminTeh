@@ -12,7 +12,7 @@ public class Review3{
     int counterDown;
     int displayNum = 21;
 
-    for(counterOdd = 0; counterOdd < 40; counterOdd++){
+    for (counterOdd = 0; counterOdd < 40; counterOdd++){
       System.out.println(displayNum);
       displayNum = displayNum + 2;
     }
@@ -20,7 +20,7 @@ public class Review3{
     System.out.println("");
     displayNum = 29;
 
-    for(counterDown = 29; counterDown >= 2; counterDown--){
+    for (counterDown = 29; counterDown >= 2; counterDown--){
       System.out.println(displayNum);
       displayNum = displayNum - 1;
     }

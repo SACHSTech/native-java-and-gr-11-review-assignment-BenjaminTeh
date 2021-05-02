@@ -18,7 +18,7 @@ public class Review2{
     System.out.println("Choose a menu option: ");
     numJoke = Integer.parseInt(keyboard.readLine());
 
-    switch(numJoke){
+    switch (numJoke){
       case 0:
         System.out.println("Your hair is so short they call you one punch man.");
         break;

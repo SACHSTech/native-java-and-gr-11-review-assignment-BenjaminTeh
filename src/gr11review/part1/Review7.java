@@ -17,11 +17,11 @@ public class Review7{
 
     theSentence = keyboard.readLine();
 
-    for(counter = 0; counter < theSentence.length(); counter++){
-      if(theSentence.charAt(counter) == ' '){
+    for (counter = 0; counter < theSentence.length(); counter++){
+      if (theSentence.charAt(counter) == ' '){
         spaceCounter++;
       }
-      else if(theSentence.charAt(counter) == 'a'){
+      else if (theSentence.charAt(counter) == 'a'){
         aCounter++;
       }
     }
@@ -30,8 +30,8 @@ public class Review7{
     System.out.println("There are " + spaceCounter + " spaces in the sentence.");
     System.out.println("There are " + aCounter + " letter a in the sentence.");
     
-    for(counter = 0; counter < theSentence.length(); counter++){
-      if(counter % 2 != 0){
+    for (counter = 0; counter < theSentence.length(); counter++){
+      if (counter % 2 != 0){
         System.out.print(theSentence.charAt(counter));
       }
     }

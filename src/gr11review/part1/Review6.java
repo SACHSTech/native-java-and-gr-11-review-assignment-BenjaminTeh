@@ -17,12 +17,12 @@ public class Review6{
     double itemTax = 0;
     double finalTotal;
 
-    for(itemCount = 1; itemCount > 0; itemCount++){
+    for (itemCount = 1; itemCount > 0; itemCount++){
       System.out.println("Enter the price for item " + itemCount + ":");
       
       itemPrice = Double.parseDouble(keyboard.readLine());
       subTotal = subTotal + itemPrice;
-      if(itemPrice == 0){
+      if (itemPrice == 0){
         itemCount = -1;
       }
     }

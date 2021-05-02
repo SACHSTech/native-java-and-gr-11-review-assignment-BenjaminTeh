@@ -21,7 +21,7 @@ public class Review4{
     System.out.println("How many items do you want to buy?");
     itemCount = Integer.parseInt(keyboard.readLine());
 
-    for(priceCounter = 1; priceCounter <= itemCount; priceCounter++){
+    for (priceCounter = 1; priceCounter <= itemCount; priceCounter++){
       System.out.println("Enter the price for item " + priceCounter + ":");
      
       itemPrice = Double.parseDouble(keyboard.readLine());
