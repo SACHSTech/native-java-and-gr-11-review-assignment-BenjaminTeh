@@ -4,6 +4,7 @@ import java.text.*;
 
 /** 
 * Loop and keep taking prices from the user until they enter 0. Add the prices to get the subtotal, multiply by 13% tax, and display the subtotal.
+@author Benjamin Teh
 */
 
 public class Review6{
