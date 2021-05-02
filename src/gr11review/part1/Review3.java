@@ -2,7 +2,7 @@ package gr11review.part1;
 import java.io.*;
 
 /**
-*One loop will print odd numbers from 20-100 first. Then, the second loop will start and will print the numbers from 29-2, counting down.
+* One loop will print odd numbers from 20-100 first. Then, the second loop will start and will print the numbers from 29-2, counting down.
 @author Benjamin Teh
 */
 

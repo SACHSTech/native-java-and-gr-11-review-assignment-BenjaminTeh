@@ -2,9 +2,9 @@ package gr11review.part1;
 import java.io.*;
 
 /** Ask for a yearly amount to be invested.
-*Ask for a compound interest rate
-*Ask for a end goal
-*Run a loop that adds yearly amount to current amount, and multiplies by the compound interest rate until it goes over the end goal. Output the amount of times the loop ran as years
+* Ask for a compound interest rate
+* Ask for a end goal
+* Run a loop that adds yearly amount to current amount, and multiplies by the compound interest rate until it goes over the end goal. Output the amount of times the loop ran as years
 @author Benjamin Teh
 */
 

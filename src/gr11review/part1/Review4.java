@@ -3,8 +3,8 @@ import java.io.*;
 import java.text.*;
 
 /**
-*Take the amount of items the user wants to buy. Ask for the prices using a loop that runs the exact amount of times as the number of items the user is buying.
-*Display the subtotal, display the 13% tax, and display the total
+* Take the amount of items the user wants to buy. Ask for the prices using a loop that runs the exact amount of times as the number of items the user is buying.
+* Display the subtotal, display the 13% tax, and display the total
 */
 
 public class Review4{
